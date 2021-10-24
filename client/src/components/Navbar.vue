@@ -1,5 +1,7 @@
+<!-- Template for Navbar -->
+
 <template>
- <nav>
+    <nav>
     <v-toolbar color="#001935" height="55px" >
      <v-toolbar-title class="text-uppercase grey--text">
       <v-btn @click="toHome()" color="transparent" ><v-img
@@ -25,7 +27,7 @@
      
     </v-toolbar>
 
- </nav>
+  </nav>
 </template>
 
 <script>
@@ -39,6 +41,9 @@ export default {
             notifikasi : []
         }
     },
+
+    /* To tell the next vue */
+
     methods : {
       goStopwatch(){
           this.$router.push({ path: "/stopwatch" });
