@@ -1,6 +1,7 @@
 const Sequelize = require('sequelize');
 const db = require('../config/database');
 
+//define database for stopwatch
 const Stopwatch = db.define("stopwatch", {
     id_stopwatch: {
         type: Sequelize.INTEGER,
@@ -26,8 +27,10 @@ const Stopwatch = db.define("stopwatch", {
         type: Sequelize.INTEGER,
         allowNull : false,
         defaultValue : 0
-    }
-}, { 
+    } 
+    }, 
+    
+    { 
     tableName : 'stopwatch',
     schema: 'public',
     freezeTableName: true
