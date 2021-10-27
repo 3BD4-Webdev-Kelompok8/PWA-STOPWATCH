@@ -4,8 +4,15 @@ import Home from '../views/Home.vue'
 
 import Stopwatch from '../views/Stopwatch.vue'
 import Rekap from '../views/Rekap.vue'
+
+// Use router
 Vue.use(VueRouter)
 
+/*  The router method takes an Array of objects that takes each component’s properties. */
+/*  path : mean the path of the component
+    name: name of the component
+    component : the view component
+*/
 const routes = [
   {
     path: '/',
