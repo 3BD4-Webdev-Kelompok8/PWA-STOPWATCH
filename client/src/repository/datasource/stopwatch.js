@@ -1,7 +1,7 @@
 import axios from "axios";
 import { STOPWATCH_URL } from "../const"
 
-//Create
+// create a new stopwatch
 const createStopwatch = async (data) => {
     try {
         console.log(STOPWATCH_URL + `/createStopwatch/`)
@@ -13,7 +13,7 @@ const createStopwatch = async (data) => {
     }
 }
 
-//Read
+// read a new stopwatch by id
 const getStopwatch = async (id) =>{
     try {
         console.log(STOPWATCH_URL + `/getStopwatch/${id}`)
@@ -25,6 +25,7 @@ const getStopwatch = async (id) =>{
     }
 }
 
+// read a running stopwatch
 const getRunningStopwatchID = async () =>{
     try {
         console.log(STOPWATCH_URL + `/getRunningStopwatchID/`)
@@ -36,6 +37,7 @@ const getRunningStopwatchID = async () =>{
     }
 }
 
+// read all stopwatch
 const getAllStopwatch = async () =>{
     try {
         console.log(STOPWATCH_URL + `/getAllStopwatch/`)
@@ -46,7 +48,8 @@ const getAllStopwatch = async () =>{
         console.log(err)
     }
 }
-//Update
+
+// update stopwatch name by name the task
 const updateStopwatchName = async (myID, nama) =>{
     try {
         console.log(STOPWATCH_URL + `/updateStopwatchName/${myID}`)
@@ -58,6 +61,7 @@ const updateStopwatchName = async (myID, nama) =>{
     }
 }
 
+// update stopwatch status
 const updateStopwatchStatus = async (myID, status) =>{
     try {
         console.log(STOPWATCH_URL + `/updateStopwatchStatus/${myID}`)
@@ -91,7 +95,7 @@ const updateStopwatchLastTimestamp = async (myID, last_timestamp) =>{
     }
 }
 
-//Delete
+// delete a stopwatch by id
 const deleteStopwatchByID = async (myID) =>{
     try {
         console.log(STOPWATCH_URL + `/deleteStopwatchByID/${myID}`)

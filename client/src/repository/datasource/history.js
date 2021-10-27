@@ -1,7 +1,7 @@
 import axios from "axios";
 import { HISTORY_URL } from "../const"
 
-//read
+// read a stopwatch history by id
 const getHistory = async (id) =>{
     try {
         console.log(HISTORY_URL + `/getHistory/${id}`)
@@ -13,6 +13,7 @@ const getHistory = async (id) =>{
     }
 }
 
+// read all stopwatch history
 const getAllHistory = async () =>{
     try {
         console.log(HISTORY_URL + `/getAllHistory/`)
@@ -24,7 +25,7 @@ const getAllHistory = async () =>{
     }
 }
 
-
+// delete a stopwatch history by id
 const deleteHistoryByID = async (id) =>{
     try {
         console.log(HISTORY_URL + `/deleteHistoryByID/${id}`)
@@ -36,6 +37,7 @@ const deleteHistoryByID = async (id) =>{
     }
 }
 
+// delete all stopwatch history by id
 const deleteAllHistory = async () =>{
     try {
         console.log(HISTORY_URL + `/deleteAllHistory/`)
