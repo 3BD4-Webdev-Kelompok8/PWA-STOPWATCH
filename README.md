@@ -135,7 +135,7 @@ This will give instructions on setting up your project locally. To get a local c
 ### Pre-Installed
 Install :
 1. Vue
-2. Ndoemon
+2. Nodemon
 3. Serve
 
 ### Installation
