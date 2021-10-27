@@ -163,7 +163,8 @@ Install :
    ```sh
    cd client
    npm run build
-   serve -g dist
+   npm i serve -g
+   serve dist
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
