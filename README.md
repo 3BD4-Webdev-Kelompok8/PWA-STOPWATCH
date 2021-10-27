@@ -144,7 +144,7 @@ Install :
    ```sh
    https://github.com/3BD4-Webdev-Kelompok8/NodeJS-Postgre-Stopwatch.git
    ```
-2. Create file.env and put this
+2. Create .env file and put this
    ```sh
     DB_HOST= {your host }
     DB_USER= {your db user }
