@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const db = require('../config/database');
 
-//define database for stopwatch
+//define database for stopwatch table
 const Stopwatch = db.define("stopwatch", {
     id_stopwatch: {
         type: Sequelize.INTEGER,

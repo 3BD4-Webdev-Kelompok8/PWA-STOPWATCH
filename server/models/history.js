@@ -1,6 +1,7 @@
 const Sequelize = require('sequelize');
 const db = require('../config/database');
 
+//define database for history table
 const History = db.define("history", {
     id_history: {
         type: Sequelize.INTEGER,
@@ -17,10 +18,12 @@ const History = db.define("history", {
         allowNull : false,
         defaultValue : 0
     }
-}, { 
+    }, 
+
+    { 
     tableName : 'history',
     schema: 'public',
     freezeTableName: true
-   });
+});
 
 module.exports = History;
