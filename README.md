@@ -132,6 +132,12 @@ This project is still running and needs some improvements and also the addition 
 
 This will give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 
+### Pre-Installed
+Install :
+1. Vue
+2. Ndoemon
+3. Serve
+
 ### Installation
 
 1. Clone the repo
@@ -155,8 +161,7 @@ This will give instructions on setting up your project locally. To get a local c
    ```sh
    cd client
    npm rub build
-   npm i serve
-   npm run serve
+   serve -g dist
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
