@@ -160,7 +160,7 @@ Install :
    ```
    ```sh
    cd client
-   npm rub build
+   npm run build
    serve -g dist
    ```
 
