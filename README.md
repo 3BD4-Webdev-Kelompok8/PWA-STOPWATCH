@@ -103,7 +103,8 @@ This project is a mini project as an assignment for the Web Development course. 
 * You can view the Stopwatch history on the Rekap page.
 * You can delete one or delete all the Stopwatch history.
 * If one task is running and you want to start another task or new task, then the running stopwatch will be paused and the other will be start.
-* And also this Stopwatch can run when the tab is closed.
+* This Stopwatch can still run even if the tab is closed.
+* And also this website implement or using Progressive Web Apps, which makes the website faster and also able to provide an experience like using a mobile application.
 
 This project is still running and needs some improvements and also the addition of some features. I hope this project can help your task.
 
@@ -119,6 +120,8 @@ This project is still running and needs some improvements and also the addition 
 * PostgreSQL
 * Vue JS
 * Vuetify
+* Axios
+* PWA
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -151,6 +154,8 @@ This will give instructions on setting up your project locally. To get a local c
    ```
    ```sh
    cd client
+   npm rub build
+   npm i serve
    npm run serve
    ```
 
@@ -184,8 +189,9 @@ To use this application, there are some features, those are:
 5. Add local storage to keep Stopwatch running in the background
 6. Use Postgre SQL for the database and Node JS for Backend (Server)
 7. Use Vue JS for Frontend (Client)
+8. Use PWA (Progressive Web Apps)
 
-See the [open issues](https://github.com/3BD4-Webdev-Kelompok8/NodeJS-Postgre-Stopwatch/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/3BD4-Webdev-Kelompok8/PWA-Stopwatch/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -221,7 +227,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/3BD4-Webdev-Kelompok8/NodeJS-Postgre-Stopwatch)
+Project Link: [https://github.com/3BD4-Webdev-Kelompok8/PWA-Stopwatch)
 
 Project Group: Group 8 - D4 3B - WebDev 2021
 
@@ -230,7 +236,7 @@ Members:
 * [Azzam Badruz Zaman - 191524037](https://github.com/Azzambz)
 * [Fachri Dhia Fauzan - 191524041](https://github.com/fachdf)
 * [Herlana - 191524045](https://github.com/Soherlana)
-* [Putri Syalwa Abdillah - 191524054](https://github.com/putrisylw)
+* [Putri Syalwa Abdullah - 191524054](https://github.com/putrisylw)
 * [Sabar Muhamad Itikap - 191524058](https://github.com/sabarmitikap)
 * [Wafi Khoerun - 191524064](https://github.com/wafikhn)
 
