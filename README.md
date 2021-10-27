@@ -122,6 +122,8 @@ This project is still running and needs some improvements and also the addition 
 * Vuetify
 * Axios
 * PWA
+* Sequelize
+* Express
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
